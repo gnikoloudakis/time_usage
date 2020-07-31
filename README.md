@@ -6,10 +6,10 @@ code example:
 ###\#python
 from time import sleep
 
-@time_usage
-def function():
-    sleep(2)
-    return 1 + 1
+@time_usage\
+def function():\
+    &emsp;sleep(2)\
+    &emsp;return 1 + 1
 
 function()
 
